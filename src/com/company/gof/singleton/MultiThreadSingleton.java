@@ -1,6 +1,4 @@
-package com.company.gof.singleton.multithread;
-
-import com.company.gof.singleton.Singleton;
+package com.company.gof.singleton;
 
 public class MultiThreadSingleton {
     private static volatile MultiThreadSingleton instance;

@@ -1,7 +1,7 @@
 package com.company;
 
 import com.company.gof.singleton.Singleton;
-import com.company.gof.singleton.multithread.MultiThreadSingleton;
+import com.company.gof.singleton.MultiThreadSingleton;
 
 public class Main {
 
