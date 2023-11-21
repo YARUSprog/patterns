@@ -1,4 +1,6 @@
-package com.company.gof.factorymethod;
+package com.company.gof.factorymethod.dialogs;
+
+import com.company.gof.factorymethod.buttons.Button;
 
 public abstract class Dialog {
 

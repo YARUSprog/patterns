@@ -1,4 +1,4 @@
-package com.company.gof.factorymethod;
+package com.company.gof.factorymethod.buttons;
 
 import java.awt.Color;
 import java.awt.FlowLayout;

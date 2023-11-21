@@ -1,4 +1,4 @@
-package com.company.gof.factorymethod;
+package com.company.gof.factorymethod.buttons;
 
 public class HtmlButton implements Button {
 

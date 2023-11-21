@@ -1,4 +1,4 @@
-package com.company.gof.factorymethod;
+package com.company.gof.factorymethod.buttons;
 
 public interface Button {
     void render();
