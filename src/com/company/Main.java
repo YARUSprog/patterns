@@ -1,14 +1,19 @@
 package com.company;
 
+import com.company.gof.factorymethod.DialogService;
 import com.company.gof.singleton.Singleton;
 import com.company.gof.singleton.MultiThreadSingleton;
 
 public class Main {
 
+    private static final DialogService dialogService = new DialogService();
+
     public static void main(String[] args) {
 //        simpleSingleton();
 //        notThreadSafeSingleton();
-        threadSafeSingleton();
+//        threadSafeSingleton();
+        dialogService.configureDialog();
+        dialogService.runDialog();
     }
 
     private static void simpleSingleton() {
